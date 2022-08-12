@@ -13,7 +13,7 @@ uint64_t factorial(uint8_t n)
 
 int main()
 {
-    uint8_t n = 5; // 5 * 4 * 3 * 2 * 1
+    uint8_t n = 8; // 5 * 4 * 3 * 2 * 1
     uint64_t n_faculuty = factorial(n);
 
     printf("%u! = %lu\n", n, n_faculuty);
